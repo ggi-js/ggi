@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.port": 5500,
+    // Live Server 시작 시 자동으로 브라우저를 열지 않도록 설정 (기본값: true)
+    "liveServer.settings.NoBrowser": false, 
+    // Live Server가 실행될 때 기본으로 열릴 브라우저를 지정 (예: 'chrome', 'firefox')
+    "liveServer.settings.CustomBrowser": "chrome" 
+}

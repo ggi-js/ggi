@@ -1,0 +1,66 @@
+/* 1. 전체 페이지 기본 설정 */
+body {
+    font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* 2. 게임 컨테이너 스타일 */
+#game-container {
+    width: 90%;
+    max-width: 600px; 
+    padding: 30px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+/* 3. 스토리 텍스트 영역 스타일 */
+#story-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left; 
+}
+
+/* 4. 선택지 컨테이너 스타일 */
+#choices-container {
+    display: flex;
+    flex-direction: column; /* 버튼을 세로로 나열 */
+    gap: 15px; /* 버튼 간격 */
+}
+
+/* 5. 선택지 버튼 스타일 */
+#choices-container button {
+    padding: 12px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+#choices-container button:hover {
+    background-color: #0056b3; 
+}
+
+/* 6. 상태 표시 (점수 등) 스타일 */
+#status-display {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #555;
+    border-top: 1px dashed #ccc;
+}
